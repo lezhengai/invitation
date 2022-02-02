@@ -8,10 +8,12 @@
     "lint": "vue-cli-service lint",
     "build-lib": "vue-cli-service build --target lib --name aveine-invoice src/wrapper.js"
   },
-  "main": "./dist/aveine-invoice.common.js",
+  "main": "./src/wrapper.js",
   "files": [
-    "dist/*",
+
     "src/assets/*",
+    "src/components/*",
+    "src/plugins/*",
     "public/*"
   ],
   "dependencies": {
